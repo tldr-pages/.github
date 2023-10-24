@@ -1,6 +1,5 @@
 name: Monthly contributor report
 on:
-  push:
   workflow_dispatch:
   schedule:
     - cron: '3 2 1 * *'
